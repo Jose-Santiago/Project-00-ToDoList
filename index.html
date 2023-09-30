@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/icon-tarea.png" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>To Do List App</h1>
+      </header>
+      <section>
+        <div class="container-section">
+          <div class="container-form">
+            <form action="">
+              <input
+                type="text"
+                placeholder="Tarea ..."
+                class="input-task"
+              id = "task-text"/>
+              <button class="btn-add" id="addButton">Agregar Tarea</button>
+            </form>
+          </div>
+          <div class="container-task">
+            <h2 class="title-task-list">Lista de Tareas</h2>
+            <ul class="list-task" id="taskList">
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="JS/app.js"></script>
+  </body>
+</html>
